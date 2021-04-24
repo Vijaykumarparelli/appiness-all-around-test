@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap");
+@font-face {
+  font-family: "StagSans-Regular";
+  src: url("./fonts/StagSans-Light.ttf");
+}
+body {
+  font-family: "StagSans-Regular";
+}
+.banner {
+  background: url("../images/Banner_mage.png");
+}
+.banner h2 {
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 34px;
+}
+.banner p {
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+}
+.btn-banner {
+  background-color: #dd5a6a;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px;
+}
+.banner-form {
+  background: #fff;
+  box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+  padding: 25px 25px;
+}
+.enquire-now {
+  color: #213559;
+  font-weight: 600;
+  font-size: 20.08px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.better-know h4 {
+  background-image: linear-gradient(to right, #2ec4b8 0%, #6078ea 100%);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 22px;
+  padding: 20px 15px;
+  font-weight: 600;
+  line-height: 31px;
+}
+.text-blue-shade {
+  color: #22b78e;
+  font-weight: 600;
+}
+.doc-img img {
+  width: 256px;
+}
+.text-blue {
+  color: #1d5aa6;
+}
+.text-bold {
+  font-weight: 600;
+}
+.border-set {
+  position: relative;
+}
+.border-set:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 40px;
+  background: #22b78e;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.btn-gradiant {
+  background-image: linear-gradient(to right, #17ead9 0%, #6078ea 100%);
+  padding: 8px 25px;
+  border: unset;
+  color: #fff;
+}
+.space-between {
+  justify-content: space-between;
+}
+.list-item {
+  list-style: none;
+  padding-left: 30px;
+}
+.list-item li {
+  font-size: 14px;
+  line-height: 39px;
+  position: relative;
+}
+.list-item li::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: url(../images/icons/plus.png);
+  background-size: 100%;
+  top: 10px;
+  left: -30px;
+}
+.warning-signs .card {
+  height: 100%;
+}
+
+.sign-icon {
+  height: 40px;
+}
+.accordion-item .card-link {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.accordion-item .list-item li {
+  line-height: 28px;
+}
+.accordion-item .list-item li::before {
+  background: url(../images/icons/double-tick-indicator.png) no-repeat;
+  top: 15px;
+}
+.accordion-item .card-header {
+  background: unset;
+}
+.chav.right {
+  transform: rotate(180deg);
+  padding-bottom: 2px;
+}
+
+.chavs {
+  align-self: baseline;
+}
+
+.chavs .chav {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.corosel-item {
+  position: relative;
+}
+.semi-colon {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 213px;
+  line-height: 165px;
+  opacity: 0.046;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn-blue {
+  background-color: #004498;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 600;
+}
+footer {
+  background: #272727;
+  padding: 60px 15px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+footer ul li {
+  margin: 0 5px;
+}
+
+.set-border {
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 30px;
+}
+footer p {
+  padding-top: 30px;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+}
+.to-top {
+  position: fixed;
+  right: 140px;
+  bottom: 130px;
+  cursor: pointer;
+  display: none;
+}
+.parsley-errors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.parsley-errors-list li {
+  color: #ff0000;
+}
+button.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .to-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
